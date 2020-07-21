@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EF40970CD1A12FD78762B94 /* Pods_XYNTestLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8153A04BA3265EC9D8F1EC /* Pods_XYNTestLib_Example.framework */; };
-		54E43DF26AF4771A64D52CE2 /* Pods_XYNTestLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010B0C614817B546EA1C8FCD /* Pods_XYNTestLib_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C1097B19754D1D86EB1CC6C5 /* libPods-XYNTestLib_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CC723A548E59710D464F92 /* libPods-XYNTestLib_Tests.a */; };
+		E68F7632C8741D0F280B4333 /* libPods-XYNTestLib_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF3E7DE6968BB598F5BFD5D /* libPods-XYNTestLib_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		010B0C614817B546EA1C8FCD /* Pods_XYNTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYNTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5CFD6D7E604206F8707046 /* Pods-XYNTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNTestLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYNTestLib_Tests/Pods-XYNTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36E4AAAE9663BDEEDDA11EA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		43E821E3D131C127215B0F10 /* XYNTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYNTestLib.podspec; path = ../XYNTestLib.podspec; sourceTree = "<group>"; };
@@ -60,11 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		60CC723A548E59710D464F92 /* libPods-XYNTestLib_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYNTestLib_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD902A4FFE722C189C7A7B8 /* Pods-XYNTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNTestLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYNTestLib_Example/Pods-XYNTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		70089CA4396E919885D69C17 /* Pods-XYNTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNTestLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYNTestLib_Example/Pods-XYNTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AF3E7DE6968BB598F5BFD5D /* libPods-XYNTestLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYNTestLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB8153A04BA3265EC9D8F1EC /* Pods_XYNTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYNTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17B45086FDDF5B377948D79 /* Pods-XYNTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYNTestLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYNTestLib_Tests/Pods-XYNTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7E452D7CA069D810BC72C64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1EF40970CD1A12FD78762B94 /* Pods_XYNTestLib_Example.framework in Frameworks */,
+				E68F7632C8741D0F280B4333 /* libPods-XYNTestLib_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				54E43DF26AF4771A64D52CE2 /* Pods_XYNTestLib_Tests.framework in Frameworks */,
+				C1097B19754D1D86EB1CC6C5 /* libPods-XYNTestLib_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				EB8153A04BA3265EC9D8F1EC /* Pods_XYNTestLib_Example.framework */,
-				010B0C614817B546EA1C8FCD /* Pods_XYNTestLib_Tests.framework */,
+				7AF3E7DE6968BB598F5BFD5D /* libPods-XYNTestLib_Example.a */,
+				60CC723A548E59710D464F92 /* libPods-XYNTestLib_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				C2F9FD16CC928541A452C000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,28 +338,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C2F9FD16CC928541A452C000 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XYNTestLib_Example/Pods-XYNTestLib_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XYNTestLib/XYNTestLib.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYNTestLib.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYNTestLib_Example/Pods-XYNTestLib_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

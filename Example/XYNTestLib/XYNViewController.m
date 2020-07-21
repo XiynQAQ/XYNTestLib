@@ -7,7 +7,8 @@
 //
 
 #import "XYNViewController.h"
-
+#import "TestClass.h"
+#import "UIColor+Color.h"
 @interface XYNViewController ()
 
 @end
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor colorWithHexString:@"#337382" alpha:1];
 }
 
 - (void)didReceiveMemoryWarning

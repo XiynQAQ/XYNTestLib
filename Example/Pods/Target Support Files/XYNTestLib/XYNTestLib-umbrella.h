@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSObject+Add.h"
 #import "TestClass.h"
 
 FOUNDATION_EXPORT double XYNTestLibVersionNumber;
