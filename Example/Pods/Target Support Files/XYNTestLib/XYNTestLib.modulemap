@@ -1,0 +1,6 @@
+framework module XYNTestLib {
+  umbrella header "XYNTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
